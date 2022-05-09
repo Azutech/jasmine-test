@@ -1,0 +1,23 @@
+{
+  "name": "jasmine--test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run jasmine",
+    "jasmine": "jasmine",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.0.3",
+    "@types/node": "^17.0.31",
+    "jasmine": "^4.1.0",
+    "jasmine-spec-reporter": "^7.0.0"
+  }
+}
